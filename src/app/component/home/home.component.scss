@@ -1,9 +1,25 @@
 #imgRevista{
+    // box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.671);
     height: 617px;
     padding-right: 10%;
     padding-top: 1%;
 }
 #imgBanner{
+    box-shadow: 10px 0 5px -5px rgba(0, 0, 0, 0.671);
     padding-left: 10%;
     padding-top: 1%;
 }
+.card_Revista{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.671);
+    width: 100%;
+    height: 100%;
+}
+.cardContent{
+    text-align: center;
+    padding: 5px;
+    height: 600px;
+}
+
