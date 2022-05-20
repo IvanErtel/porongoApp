@@ -10,6 +10,11 @@ import { ContactoComponent } from './component/contacto/contacto.component';
 import { SearchComponent } from './component/search/search.component';
 import { FooterComponent } from './component/footer/footer.component';
 import { AutorComponent } from './component/autor/autor.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
+// angular material 
+import {MatGridListModule} from '@angular/material/grid-list'; 
+import { MatSliderModule } from '@angular/material/slider';
 
 @NgModule({
   declarations: [
@@ -24,7 +29,10 @@ import { AutorComponent } from './component/autor/autor.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    MatSliderModule,
+    MatGridListModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
