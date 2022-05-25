@@ -1,38 +1,13 @@
 #imgRevista{
     // box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.671);
-    height: 617px;
-    padding-right: 10%;
+    width: 63%;
+    margin-right: 45%;
     padding-top: 1%;
     align-items: center;
 }
-@media screen and (max-width: 1000px) {
-    #imgRevista{
-        justify-content: center;
-       align-items: center;
-       height: 80vh;
-    }
-}
 #imgBanner{
-    box-shadow: 10px 0 5px -5px rgba(0, 0, 0, 0.671);
+    // box-shadow: 10px 0 5px -5px rgba(0, 0, 0, 0.671);
     padding-left: 10%;
     padding-top: 1%;
-}
-@media screen and (max-width: 1000px) {
-    #imgBanner{
-    display:none;
-    }
- }
-.card_Revista{
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.671);
-    width: 100%;
-    height: 100%;
-}
-.cardContent{
-    text-align: center;
-    padding: 5px;
-    height: 600px;
 }
 

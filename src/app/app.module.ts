@@ -15,6 +15,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 // angular material 
 import {MatGridListModule} from '@angular/material/grid-list'; 
 import { MatSliderModule } from '@angular/material/slider';
+import { CardsComponent } from './cards/cards.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { MatSliderModule } from '@angular/material/slider';
     ContactoComponent,
     SearchComponent,
     FooterComponent,
-    AutorComponent
+    AutorComponent,
+    CardsComponent
   ],
   imports: [
     BrowserModule,
