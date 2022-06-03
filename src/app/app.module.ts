@@ -16,6 +16,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatGridListModule} from '@angular/material/grid-list'; 
 import { MatSliderModule } from '@angular/material/slider';
 import { CardsComponent } from './cards/cards.component';
+import { FanzineComponent } from './component/fanzine/fanzine.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { CardsComponent } from './cards/cards.component';
     SearchComponent,
     FooterComponent,
     AutorComponent,
-    CardsComponent
+    CardsComponent,
+    FanzineComponent
   ],
   imports: [
     BrowserModule,
