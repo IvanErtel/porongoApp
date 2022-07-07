@@ -13,10 +13,13 @@ import { AutorComponent } from './component/autor/autor.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 // angular material 
-import {MatGridListModule} from '@angular/material/grid-list'; 
+import { MatGridListModule } from '@angular/material/grid-list';
 import { MatSliderModule } from '@angular/material/slider';
 import { CardsComponent } from './cards/cards.component';
 import { FanzineComponent } from './component/fanzine/fanzine.component';
+import { MatIconModule } from '@angular/material/icon'
+import { MatCardModule } from '@angular/material/card'
+
 
 @NgModule({
   declarations: [
@@ -36,7 +39,10 @@ import { FanzineComponent } from './component/fanzine/fanzine.component';
     AppRoutingModule,
     MatSliderModule,
     MatGridListModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    MatIconModule,
+    MatCardModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]
