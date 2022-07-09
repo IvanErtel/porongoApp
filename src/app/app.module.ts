@@ -16,9 +16,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { MatSliderModule } from '@angular/material/slider';
 import { CardsComponent } from './cards/cards.component';
-import { FanzineComponent } from './component/fanzine/fanzine.component';
-import { MatIconModule } from '@angular/material/icon'
-import { MatCardModule } from '@angular/material/card'
+import { MatIconModule } from '@angular/material/icon';
+import { MatCardModule } from '@angular/material/card';
 
 
 @NgModule({
@@ -31,8 +30,7 @@ import { MatCardModule } from '@angular/material/card'
     SearchComponent,
     FooterComponent,
     AutorComponent,
-    CardsComponent,
-    FanzineComponent
+    CardsComponent
   ],
   imports: [
     BrowserModule,
